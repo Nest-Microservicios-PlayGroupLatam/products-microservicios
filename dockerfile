@@ -9,8 +9,8 @@ RUN npm install
 
 COPY . .
 
-# Genera Prisma para linux-musl
-RUN npx prisma generate
+# RUN npx prisma migrate dev
+# RUN npx prisma generate
 
 EXPOSE 3001
 
